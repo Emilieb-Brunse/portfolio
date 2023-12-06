@@ -1,0 +1,91 @@
+body{
+    background-color: #FBF8F2;
+    margin: 0.5%;
+    padding: 0%;
+}
+
+.profilbillede{
+    width: 70px;
+}
+
+.navn{
+    color: #996955;
+}
+.navn1{
+    color: #1B4954;
+}
+
+.navn2{
+    color: #78389F;
+}
+
+.navn3{
+    color: #C38BA9;
+}
+.navn4{
+    color: #FFFFFF;
+}
+.container{
+    padding: 2%;
+   background: #FAE5BC;
+}
+.container1{
+    padding: 2%;
+    background: #C6E6ED;
+}
+.container2{
+    padding: 2%;
+    background: #ECDCFC;
+}
+.container3{
+    padding: 2%;
+    background: #FDEBF5;
+}
+.container4{
+    padding: 2%;
+    background: #D2E0CD;
+}
+.desktop-nav{
+    padding: 20px;
+}
+.nav-link1{
+    color: #52B3C8;
+}
+
+.nav-link2{
+    color: #B187DB;
+}
+
+.nav-link3{
+    color: #C38BA9;
+}
+.nav-link4{
+    color: #78B463;
+}
+
+.video-container{
+    margin:50px;
+    width: 70px;
+    align-items: center;
+    justify content
+}
+
+.cover1{
+    margin: 50px;
+      width: 70%;
+}
+.cover2{
+    margin: 50px;
+      width: 70%;
+}
+.cover3{
+    margin: 70px;
+    width: 70%;
+  }
+.cover4{
+    margin:180px;
+      width: 70%;   
+    padding: 0%;
+}
+
+
