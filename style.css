@@ -1,99 +1,134 @@
 body {
-
+    margin: 0px;
+    background-color: white;
 }
   
 .profilbillede{
     width: 70px;
+    border-radius: 50%;
 }
 
-.navn{
-    color: #996955;
+.hjemknap{
+    margin-left: 2px;
+    background-color: #D1E5CA;
+    color: white;
+    border: 10px;
+}
+
+.navnh{
+    padding-left: 10px;
+    color: #C38BA9;
 }
 .navn1{
-    color: #1B4954;
+    padding-left: 10px;
+    color: white;
 }
 
 .navn2{
+    padding-left: 10px;
     color: #78389F;
 }
 
 .navn3{
-    color: #C38BA9;
+    padding-left: 10px;
+    color: white;
 }
 .navn4{
-    color: #FFFFFF;
+    padding-left: 10px;
+    color: white;
 }
+
+.kontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .container{
     padding: 2%;
-   background: #FDEBF5;
+    display: flex;
+    background: #FDEBF5;
 }
 .container1{
     padding: 2%;
-    background: #C6E6ED;
+    display: flex;
+    background: #D1E5CA;
 }
 .container2{
     padding: 2%;
+    display: flex;
     background: #ECDCFC;
 }
 .container3{
     padding: 2%;
-    background: #FDEBF5;
+    display: flex;
+    background: #EEB7C1;
 }
 .container4{
     padding: 2%;
-    background: #D2E0CD;
+    display: flex;
+    background: #C6E6ED;
 }
 .desktop-nav{
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nav-link1{
-    color: #52B3C8;
+    color: #78B463;
+    padding: 10px;
 }
 
 .nav-link2{
     color: #B187DB;
+    padding: 10px;
 }
 
 .nav-link3{
     color: #C38BA9;
+    padding: 10px;
 }
 .nav-link4{
-    color: #78B463;
+    color: #52B3C8;
+    padding: 10px;
 }
 
 .video-container{
-    margin:50px;
-    width: 70px;
+    margin: 50px;
     align-items: center;
-    justify content
+    justify-content: center;
+}
+
+.video {
+    width: 300px;
 }
 
 .cover1{
-    margin: 50px;
       width: 70%;
+
 }
 .cover2{
-    margin: 50px;
       width: 70%;
 }
 .cover3{
-    margin: 70px;
     width: 70%;
   }
 .cover4{
-    margin:180px;
       width: 70%;   
     padding: 0%;
 }
 
 .header{
    color: #996955;
-    width: 50%;
+    margin: auto;
+    text-align: center;
 }
 
 .footer{
     background-color: #FDEBF5;
     color: #996955;
+    padding: 10px;
 }
 
 .slideshow {
@@ -121,9 +156,24 @@ body {
     position: absolute;
 }
 
-          @media only screen and (max-width: 600px) {
-     body {
- background-image: url(kodebillede/baggrund.png);
- background-size: cover;
- background-repeat: no-repeat;
-     }
+.example {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 100px;
+    margin: 100px;
+
+}
+
+@media(min-width: 700px){
+    .video {
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media(min-width: 800px){
+    .cover2 {
+        max-width: 600px;
+    }
+}
