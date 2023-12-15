@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- jeg starter ud med at lave mit head hvor jeg skriver title som er Emilie Brunse - Portfolio. derefter linker jeg til mit css
+og afslutter mit head-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hjem - Emilie Brunse</title>
-    <link rel="stylesheet" type="text/css" href="style.css"
+    <title>Emilie Brunse - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<!-- her begynder jeg min body. Jeg starter med at lave alt det øverste på min side som er container med profilbillede og navn -->
 <body>
 <div class="container">
     <img class="profilbillede"
          src="../untitled/kodebillede/profilbillede.jpg"/>
     <h2 class="navnh">Emilie Brunse</h2>
 </div>
+<!--  derefter laver jeg min menu med link til mine andre undersider-->
     <nav class="desktop-nav">
       <a class="nav-link1" href="skoleprojekterne.html">Skole Projekter</a>
       <a class="nav-link2" href="privateprojekter.html">Private Projekter</a>
   <a class="nav-link3" href="ommig.html">Om Mig</a>
    <a class="nav-link4" href="kontakt.html">Kontakt</a>
     </nav>
-        <div class="bar">
-        </div>
-<h1 class="header">Multimediedesigner</h2>
-    <div class="kontainer">
+<!--  jeg laver en header og derefter en titel over min video, som altså er en introduktionsvideo-->
+<h1 class="header">Multimediedesigner</h1>
+<h3 class="skrift-video">Introduktions video</h3>
+<!-- herefter sætter jeg min video ind med link fra youtube hvor jeg har uploadet den, og har altså også lavet en allowfullscreen muligt -->
+<div class="kontainer">
         <div class="video-container">
             <iframe class="video" src="https://www.youtube.com/embed/G2nzqlYTdo0?si=tWDN47vSMWs-2fEX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
-    <div class="kontainer">
-        <img class="cover2" src="../untitled/kodebillede/Forside.Emilie.png"/>
+<!-- her er en kontainer der holder mine covers på alle siderne, denne gang er coveret den eneste som er under noget andet, altså
+ i dette tilfælde videoen-->
+<div class="kontainer">
+    <!-- herunder ligge min notesbog på min forside -->
+        <img class="notesbog" src="../untitled/kodebillede/Forside.Emilie.png" alt="forside foto af Emilie"/>
     </div>
-
-<footer class="footer"
+<!-- jeg lavede en simpel footer med li tags for at de skulle komme lidt i punktform -->
+<footer class="footer">
        <p>
            Studerer Multimediedesigner på Zealands Erhvervsakademi
        </p>
