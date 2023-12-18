@@ -113,11 +113,15 @@ min video der hvor den skal være på siden*/
 .video-container{
     align-items: center;
     justify-content: center;
+        display: flex;  
+    width: 70%;
+    padding-bottom: 10px;
 }
     /* min videoes fylde med width og height i pixels*/
 .video {
-    width: 400px;
-    height: 250px;
+    justify-content: center;
+   width: 200px;
+   height: 250px;               
 }
      /* jeg har sat en skrift lige over min vide hvor der står "introduktions video, og det er den her*/
 .skrift-video{
@@ -128,7 +132,6 @@ min video der hvor den skal være på siden*/
      /* her er mine coverbilleder til mine undersider, igen med 1-4 */
 .cover1{
       width: 70%;
-
 }
 .cover2{
       width: 70%;
@@ -143,6 +146,9 @@ min video der hvor den skal være på siden*/
 
 .notesbog{
     width: 70%;
+  justify-content: center;                                 
+      height: 100%;
+
 }
 
      /* min header hvor der står Multimediedesigner */
@@ -188,8 +194,6 @@ color: #AF5486;
 .container-farve1{
     color: white;
     margin: 20px;
-    padding: 40px;
-    border: 30px;
     background-color: #D1E5CA;
         display: flex;
     align: center;
@@ -244,17 +248,31 @@ color: #AF5486;
      font-size: 30px;
  }
 
+ .ølfør img,
+ .katfør img,
+ .sofafør img {
+     max-width: 100%;
+     height: auto;
+     display: block;
+   }
+ }
+
      /* Jeg havde tænkt mig at lave en hover-effekt på mine billeder i private projekter og skole projekter, og har derfor kaldt mine
      img for ølfør, katfør osv. og ville derefter lave en hover-effekt med img kaldet øl-hover og kat-hover. men lige i øjeblikket har de fået
      den her placering og en margin og padding som holder dem lidt adskilt og giver flottere placering*/
 .ølfør {
-    padding: 12px;
+    padding: 14px;
     margin: 2px;
 }
-
 .katfør{
     padding: 10px;
     margin: 2px;
+}
+
+.text-projekt   {
+    padding: 5px;
+    margin: 4px;
+
 }
 
 .sofafør{
@@ -262,19 +280,30 @@ color: #AF5486;
     margin: 3px;
 }
 
+
+/*herunder er det en ikke færdigt kode og uden gif'er, men med billeder som erstatning i øjeblikket. de hører til på private projekter siden
+men skal have samme opstilling som forrig*/
+.redigerfør img,
+  .kreafør img,
+  .fotofør img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
 .redigerfør {
-    padding: 30px;
-    margin: 3px;
+    padding: 10px;
+    margin: 2px;
 }
 
 .kreafør{
- padding: 15px;
-margin: 3px;
+  padding: 10px;
+  margin: 2px;
 }
 
 .fotofør{
-       padding: 15px;
-       margin: 3px;
+   padding: 10px; 
+   margin: 2px;   
 }
 
        /* beskrivelsea eller A, er den skrift jeg skriver med inde i html, og den måde jeg beskriver projektet på inde i mine
@@ -292,10 +321,51 @@ margin: 3px;
       justify-content: center;  
 }
 
+.underskift{
+         justify-content: right;
+display: block;
+    margin-left: auto;
+    margin-right: 1%;
+    
+}
+
+/*det her er til min underside i skoleprojekt 1, som er sommervideo i november aka. svaneke videoreklame. der er lavet to beskrivelser samt boks de skal stå i*/
+.containertop-projekt1{
+    display: flex;
+    background-color: #D1E5CA;
+    margin: 10px;
+     align-items: center;             
+     justify-content: center;
+}
+
+.beskrivelse15 {
+    align-items: center;
+    justify-content: center;
+}
+
+.beskrivelse10 {
+    align-items: center;
+    justify-content: center;
+}
+
+ /*her er overskriften til min sommervideo i november*/
+.sommervideo{
+     align-items: center;
+     justify-content: center;
+     color: #2B6318;
+        display: flex;  
+
+}
+
     /* her har jeg @media som skulle gøre mit domæne mere responsive. her har jeg fået hjælp fra kodelab på zealand*/
 @media(min-width: 300px){
     .video-container {
         height: 400px;
+ .video{
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+ }
     }
 }
 
